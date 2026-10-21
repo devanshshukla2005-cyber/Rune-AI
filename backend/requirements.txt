@@ -1,0 +1,6 @@
+flask
+flask-cors
+mistralai
+wikipedia
+python-dotenv
+gunicorn

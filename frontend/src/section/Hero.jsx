@@ -91,7 +91,7 @@ const Hero = () => {
                 const transcript = event.results[0][0].transcript;
 
                 try {
-                    const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+                    const backendUrl = (import.meta.env.VITE_BACKEND_URL || '').replace(/\/$/, '');
 
                     setStatusText("Thinking...");
                     const response = await fetch(`${backendUrl}/api/query`, {
@@ -188,7 +188,7 @@ const Hero = () => {
         setStatusText("Thinking...");
 
         try {
-            const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
+            const backendUrl = (import.meta.env.VITE_BACKEND_URL || '').replace(/\/$/, '');
             const response = await fetch(`${backendUrl}/api/query`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

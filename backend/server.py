@@ -119,6 +119,8 @@ def handle_query():
     return jsonify({'response': result})
 
 @app.route('/', methods=['GET'])
+@app.route('/api', methods=['GET'])
+@app.route('/api/', methods=['GET'])
 def health_check():
     return jsonify({'status': 'Rune Backend is running!'})
 

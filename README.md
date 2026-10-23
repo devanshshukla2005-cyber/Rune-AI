@@ -60,3 +60,11 @@ Rune-Ai/
    npm run dev
    ```
 4. Access the interface in your browser (typically `http://localhost:5173`).
+
+
+<img width="1905" height="951" alt="image" src="https://github.com/user-attachments/assets/9d2d2304-3dce-4e80-84fb-52c8df78bb05" />
+<img width="1905" height="951" alt="image" src="https://github.com/user-attachments/assets/0e5a5e8a-74cd-4877-9bac-7064fe77bcb3" />
+<img width="1905" height="951" alt="image" src="https://github.com/user-attachments/assets/80a3e5e9-f211-4f0a-b79f-9fc9f837e9fb" />
+
+
+
